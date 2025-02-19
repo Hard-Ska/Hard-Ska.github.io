@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('ressources/fond.png') center/cover no-repeat;
+    display: flex;
+    background-color: #330812;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 863%;
+    max-width: 300px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.icons img {
+    width: 32px;
+    height: 32px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 254px;
+}
+
+.buttons a {
+    display: block;
+    padding: 15px;
+    background: #F5E6C4;
+    text-decoration: none;
+    color: #600B2D;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons a:hover {
+    background: #E4D2B0;
+}
+
+.images {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.images img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
